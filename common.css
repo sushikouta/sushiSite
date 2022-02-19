@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.button {
+    transition: 0.2s;
+    border-radius: 4px;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    border: 1px solid #e4e4e4;
+    padding: 12px;
+    background-color: white;
+}
+  .button:hover {
+    background-color: rgb(218, 216, 216);
+    box-shadow: 0 0 8px #e4e4e4;
+    
+}
+.header{
+    width: auto;
+    height: 120px;
+    background-color: #db6666;
+    box-shadow: 4px 4px 7px #a1a1a1;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.header-logo{
+    float: left;
+    padding: 30px 50px 30px 50px;
+}
+.header-link{
+    float: left;
+    list-style: none;
+    padding-top: 40px;
+}
+.header-link li{
+    display: inline;
+    padding: 30px 30px 30px 30px;
+}
+.header li :hover{
+    background-color: #dd8080;
+}
+.right-tab{
+    margin-top: 10px;
+    float: right;
+    width: 200px;
+    height: 600px;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 10px; 
+    border: 1px dotted #333333; 
+    border-radius: 5px;
+}
+.main{
+    margin-top: 10px;
+    height: 800px;
+}
+.main-text {
+    padding-left: 30px;
+}
+.footer{
+    height: 200px;
+    width: auto;
+    background-color: aquamarine;
+}
